@@ -1,0 +1,550 @@
+<html lang="en">
+<head>
+    
+    <script src="https://kit.fontawesome.com/8a943d07f5.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        *{
+            margin:0%;
+            box-sizing: border-box;
+        }
+        div{
+            float:left;
+        }
+    .header{
+        width: 100%;
+        background-color: gray; 
+        display: flex; 
+    }
+    .header h2{
+        margin-left: 10%;
+        width: 50%;
+        padding: 10px;
+    }
+    .header ul li a{
+        text-decoration: none;
+        color: white;
+
+    }
+    .header ul li a:hover{
+        color: black;
+        transition: 1s;
+    }
+    .contact{
+        list-style: none;
+        padding: 10px;
+        font-size: 18px;
+        
+    }
+    .m1{
+        color: whitesmoke;
+        margin-right: 10px;
+    }
+     .ul{
+        width: 40%;
+        display: flex;
+     }
+     .r1{
+        width: 100%;
+       background-color: pink;
+     }
+     .r1 h1{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+     }
+     .logo{
+        width:5%;
+     }
+     .r2{
+        width: 100%;
+     }
+     .r2 ul{
+        display: flex;
+        margin-left:13%;
+        margin-top: 30px;
+     }
+     .r2 ul li{
+        list-style: none;
+        margin-left: 24px;
+        position: relative;
+     }
+     .r2 ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 900;
+        
+     }
+     .r2 ul li a:hover{
+        border-bottom: solid 1px;
+        color: red;
+     }
+     .dropdown{
+        display: none;
+     }
+     .dropdown ul li a:hover{
+        display: block;
+        position:absolute;
+        left:0%;
+        top: 100%;
+     }
+     
+     .dropdown ul{
+        display: block;
+        margin: 10px;
+     }
+     .dropdown ul li{
+        width: 150px;
+        padding: 10px;
+     }
+     .block1{
+        width: 98%;
+        margin-top: 20px;
+        margin-left: 1%;
+       height: 80vh;
+       border-radius: 10px;
+       margin-bottom: 20px;
+       background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEid96OG15yroExwsni29rVnNAtL9q8Ml97LhUWLOmtlzrYr95JPlGtTqjtQ4zksDD3UKxiNKKfTeHupN-v9YUX0VXmJ4W6_zaaR5UThRhQVSbtb432lZgs-1Kc0bWpYd6JMqpzY9Q2_EGycicOz1Wc7zKn1d7lGlWsASJGNrgGq_RAM4rbXL8gRYC4Njw=w400-h237");
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+     .r3{
+        width: 100%;
+     }
+  .h1{
+    margin-top: 10%;
+    margin-left: 10%;
+    color:white;
+    text-shadow: 20px;
+    font-size:60px;
+  }
+  .r3 p{
+    margin-left: 10%;
+    color: white;
+  }
+  .b1{
+    margin-left: 10%;
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: goldenrod;
+  }
+  .b1:hover{
+    border-bottom:solid 1px;
+    color: red;
+    width: 105px;
+    transition: 1s;
+  }
+  .r4{
+    width:100%;
+
+  }
+  .part1{
+    width: 40%;
+    margin-left: 10%;
+    text-align: justify;
+  }
+  .box1{
+    border: solid 1px black;
+    padding: 15px;
+    margin-bottom: 20px;
+    height: 45vh;
+    margin-right: 10px;
+  }
+  .box{
+    border: solid 1px blue;
+  }
+  
+  .part1 h2{
+    margin-top: 10px;
+  }
+  .part2{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 9%;
+  }
+  .prt2{
+    color: blue;
+    margin-bottom: 50px;
+  }
+  
+ 
+
+  .container1{
+   width: 100%;
+   margin-top: 100px;
+   margin-bottom: 20px;
+  }
+  .container1 h1{
+   margin-bottom: 20px;
+   font-weight: 900;
+  }
+  .div1{
+   width: 18%;
+  }
+  .div2{
+   width:905px;
+   height: 500px;
+   overflow-x: scroll;
+   background-color: grey;
+   padding: 3% 3% 0% 3%;
+   border-radius: 25px;
+   border: 1px solid black;
+   box-shadow: 0px 0px 20px black;
+  }
+  .div2 h1{
+   margin-bottom: 25px;
+  }
+  .img-container2{
+   display: flex;
+   flex-direction: column;
+  }
+ 
+  .imgg10{
+   width: 95%;
+   height: 95%;
+   margin-left: 25px;
+   margin-bottom: 20px;
+  }
+  
+  .div1 ul li{
+   list-style: none;
+   margin-bottom: 20px;
+  }
+  .div1 ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 900;
+   color: black;
+  }
+  .div1 ul li a:hover{
+   border-bottom: 1px solid red;
+   color: red;
+  }
+  .div3 h1{
+   margin-left: 45px;
+  }
+  .div3 p:hover{
+    color: red;
+  }
+
+  .events{
+   width: 100%;
+   margin-top: 20px;
+  }
+
+  .events h1 {
+   margin-left: 18%;
+   
+  }
+  .events p{
+   margin-left: 18%;
+   margin-bottom: 30px;
+  }
+  .card1{
+   display: flex;
+   width: 60%;
+   margin-left: 18%;
+   padding: 20px;
+   border: 1px solid black;
+   border-radius: 20px;
+   margin-bottom: 20px;
+  }
+.events-img{
+   width:20%;
+   height:20vh;
+}
+.event-button1{
+   margin-top: 20px;
+   margin-left: 20px;
+   width: 110px;
+   height: 50px;
+   font-size:18px;
+   border-radius: 20px;
+   background-color:blueviolet;
+   color: white;
+   
+}
+.card1 h2{
+   margin-left: 25px;
+}
+.date{
+   font-size: 20px;
+   margin-top: 10px;
+   display: flex;
+}
+
+.event-button1:hover{
+   color: red;
+   transition: 1s;
+   background-color: black;
+}
+.bottom{
+   margin-top: 30px;
+   width:100%;
+   background-color: black;
+   color: white;
+   height: 30vh;
+}
+.bottom1{
+   margin-left: 18%;
+   width: 20%;
+   margin-top: 55px;
+}
+.bottom2{
+   width: 20%;
+   margin-top: 55px;
+}
+.bottom3{
+   width: 20%;
+   margin-top: 55px;
+}
+.bottom4{
+   width: 20%;
+   margin-top: 55px;
+}
+.bottom1 p a{
+   text-decoration: none;
+   color: grey;
+   margin-top: 25px;
+   
+}
+.para1{
+   margin-top: 30px;
+}
+.para2{
+   margin-top: 10px;
+}
+.para1 a:hover{
+   color:white;
+   transition: 1s;
+}
+.para2 a:hover{
+   color:white;
+   transition: 1s;
+}
+.bottom ul li a{
+   color:red;
+   margin-right: 20px;
+}
+.bottom2 p{
+   color: grey;
+}
+.para1 a{
+   text-decoration: none;
+   color: grey;
+}
+.para2 a{
+   text-decoration: none;
+   color: grey;
+}
+.para1 a:hover{
+   color: white;
+   transition: 1s;
+}
+.para2 a:hover{
+   color: white;
+   transition: 1s;
+}
+.bottom3 p{
+   color: grey;
+}
+.tw{
+   font-size: 30px;
+   margin-left: 5px;
+   
+}
+    </style>
+    
+</head>
+<body>
+<div class="header">
+    
+    <h2>INTEGRAL UNIVERSITY</h2>
+    <ul class="ul">
+        <li class="contact"><i class="fa-solid fa-phone"></i><a  href="tel:+91 9335177775 ">+91 9335177775 </a></li>
+        <li class="contact"><i class="fa-solid fa-envelope m1"></i><a href="mailto:info@iul.ac.in">info@iul.ac.in</a></li>
+    </ul>
+</div>
+<div class="r1">
+    <h1>Department of Computer Application</h1>
+</div>
+
+<div class="r2">
+ <ul>
+    <li><a href="https://iul.ac.in/CA/index.aspx">HOME</a></li>
+    <li><a href="#">ABOUT <i class="fa-solid fa-caret-down"></i></a>
+    <div class="dropdown">
+        <ul>
+            <li><a href="#">overview</a></li>
+            <li><a href="#">vision</a></li>
+            <li><a href="#">mission</a></li>
+        </ul>
+    </div>
+    </li>
+    <li><a href="https://iul.ac.in/CA/Program.aspx">PROGRAM</a></li>
+    <li><a href="#">PEOPLE <i class="fa-solid fa-caret-down"></i></a></li>
+    <li><a href="https://iul.ac.in/CA/Student.aspx">STUDENT</a></li>
+    <li><a href="https://iul.ac.in/CA/Research.aspx">RESEARCH</a></li>
+    <li><a href="https://iul.ac.in/CA/Activities.aspx">ACTIVITIES</a></li>
+    <li><a href="https://iul.ac.in/CA/Achievements.aspx">ACHIEVEMENTS</a></li>
+    <li><a href="https://iul.ac.in/CA/Infrastructure.aspx">INFRASTRUCTURE</a></li>
+    
+ </ul>
+ 
+</div>
+<div class="r3">
+    <div class="block1">
+        <h1 class="h1">Creative and<br> innovative</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="b1">Visit Page</button>
+    </div>  
+</div>
+
+<div class="r4">
+    <div class="part1">
+        <h1 style="margin-top:30px; margin-bottom:20px;">Welcome</h1>
+        <div class="box1">
+        <div class="box"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEioz8UK26BX-kyY40e5lKqN86NwPvUWhM_AJKyA41zsh9cvHczpNieMK98FYNxvnxCQSpcwKSPThnqAymiDZhQAQ31sFqspA8gY-4SLwggSW6kOk5EIIizukhVsp97GRrxL99olF4hHaIzwe67TjYI87bkA9_Wb6xk0K0_05l9HMslfwfKE2JlWH_uD4w=s16000"></div>
+        <h2>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dr<br>&nbsp;mohammad<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;faisal<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(HOD)
+           </h2> 
+        </div>
+        <h3 style="margin-bottom:20px;">Welcome to the Department of Computer Application of Integral University.</h3>
+
+<p class="mar">The Department was established in 2003 and is one of the most reputed academic departments in the field of Computer Application. The curriculum of this department is addressed to the students who wish to be distinguished as Software Developer, Computer System Analyst, Software Engineer, Software Application Architect, Hardware Engineer, Software Consultant, Database Administrator in the private and public sector. You can become part of this highly competitive and futuristic environment by enrolling for one of our exciting programs. The Department offers a 4 semester Bachelor program in Computer Application (BCA), 4 semester Master program in Computer Application,The combination of a dynamic and innovative curriculum that takes advantage of the latest technologies, with the experienced faculties of the Department, creates a fertile ground for the effective dissemination of knowledge and the development of the necessary skills for future professional recognition of the Department's students.</p>
+    </div>
+
+    <div class="part2">
+        <h1 style="margin-top:30px; margin-bottom:20px">News and  Announcement</h1>
+        <p style="margin-top:20px; margin-bottom:7px;border-top: solid 1px black;"><i class="fa-solid fa-calendar-days"></i>14/10/2022</p>
+        <P class="prt2">September issue of techDose</P>
+
+        
+        <p style="margin-top:20px; margin-bottom:7px; border-top: solid 1px black;"><i class="fa-solid fa-calendar-days"></i>14/10/2022</p>
+        <P class="prt2">September issue of techDose</P>
+
+        
+        <p style="margin-top:20px; margin-bottom:7px; border-top: solid 1px black;"><i class="fa-solid fa-calendar-days"></i>14/10/2022</p>
+        <P class="prt2">September issue of techDose</P>
+        
+        <p style="margin-top:20px; margin-bottom:7px; border-top: solid 1px black;"><i class="fa-solid fa-calendar-days"></i>14/10/2022</p>
+        <P class="prt2">September issue of techDose</P>
+
+        <p style="margin-top:20px; margin-bottom:7px; border-top: solid 1px black;"><i class="fa-solid fa-calendar-days"></i>14/10/2022</p>
+        <P class="prt2">September issue of techDose</P>
+    </div>
+</div>
+
+
+<div class="container1">
+    <center><h1>Welcome to the department of computer application</h1></center>
+    <div class="div1">
+        <center><h1>Faculty</h1></center>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Course overview</a></li>
+            <li><a href="">Course Details</a></li>
+            <li><a href="">Infrastructure</a></li>
+            <li><a href="">Eligibility criteria</a></li>
+            <li><a href="">Home</a></li>
+        </ul>
+    </div>
+  <div class="div2"> 
+    <center><h1>Explore the department of Computer Application</h1></center>
+    <div class="img-container2">
+        <img class="imgg10" src="https://blogger.googleusercontent.com/img/a/AVvXsEjzeDVEzTWnYSVvnqC1GVnR3R6iw7yJOTaxPezXCdfolczxUi6MuPMPjeeFQrpwICRtZtnxlCywHy4TexZDmTU8vMsHgs8sAakeu17nK33F4j7WZkMUU9WKoJBS3y3_DlI2n-ssIH1_obagxYJckDGG7aJhLDebmMUuibwWNX2RzkdzPw9RMoUXrpCPZQ=w400-h267" >
+        <img class="imgg10" src="https://blogger.googleusercontent.com/img/a/AVvXsEiKlBt4DU0xn3MZoIHjfWlAMfGePBj4_4FmFbatwnngJ6JlMY42ruA4ik0qHC5OMt7azMmfEy8JTY3DPO1dkwAoX_AmwVqibRQVyA9Dx7S8yK6d8Nx_pjj-gBtRzfWolvoax-Y6MeHMIfACJ4siTw9VUasgJ99-7O7TDyCnRBNcygJa_Ia1hfJQUAEq8g=w400-h266" >
+        <img class="imgg10" src="https://blogger.googleusercontent.com/img/a/AVvXsEi8pDVtLPoFknoyFO7F1tyGPGT2GBt-vUMLMFAXYJ2dcHJvWTaZ1ciRRBLLapeOS4wLnwFkySyuw7fUHnhehXqtp0-cZE9lnzrw_gc5sicF67ene-Qq4aTIdjAWwzpMby2QferP8BvOLDHiZKmo7NMSQah7RnCjKR4gX4AUNUB1W8whvZ9J_3yCjzEw_Q=s16000" >
+        <img class="imgg10" src="https://blogger.googleusercontent.com/img/a/AVvXsEhwklCA1MAx86_V3mLiZyfY4NdJWnGebuXT7JDWrqjZ8TSsrEYaTBOn9j_WysuDaMRLhcjfAI9njsSpMdE0V1jERam2qMXraeldGO_2Dh5JA0xGLVeqQsk-t2Nnu4Hsls7V8zfQAo7VIzKA2pRjKhZ-lK_doSq1ngtllDp_DxImvN-7I188_hW-TWGstg=s16000">
+        <img class="imgg10" src="https://blogger.googleusercontent.com/img/a/AVvXsEj6MtlXUUM4zoDSlCVwHI5qBFWjSqcFw8aYP4ceO8VJgC7qoYJxfd6_u4zs2k_AEER0Kcra_XPkJDLAMDz5T3WV0QSUtSjcGIAj2LTRsBlEfmWfZrV3ZW0JoO-Kbpg4l2wf5qLAvj79ZvrR35-HMMY2by8-HFahisBYpLo2jFytihpHFxgHjcavKySgNQ=s16000" >
+        <img class="imgg10" src="https://blogger.googleusercontent.com/img/a/AVvXsEi5fz8Wwty71RVcDSiaZHMzOU_JlvmOwV1DkRIC6D6cdG7MOQmSGEUFKpAaVcxDemExVqM8MdeGESoeTwYngqfdkngK7e08H2rI6LlP5wxl7AXJ6evROJjQH0-QSd14w8pdx_VoX4vlJUXG53rP2zANjZ162eUk-ewo0pr9unbYZzLmtYMCNpG1fHSbqw=w400-h265" >
+        <img class="imgg10" src="https://blogger.googleusercontent.com/img/a/AVvXsEj6MtlXUUM4zoDSlCVwHI5qBFWjSqcFw8aYP4ceO8VJgC7qoYJxfd6_u4zs2k_AEER0Kcra_XPkJDLAMDz5T3WV0QSUtSjcGIAj2LTRsBlEfmWfZrV3ZW0JoO-Kbpg4l2wf5qLAvj79ZvrR35-HMMY2by8-HFahisBYpLo2jFytihpHFxgHjcavKySgNQ=s16000" >
+        <img class="imgg10" src="https://blogger.googleusercontent.com/img/a/AVvXsEh8XQacKg74Yubl1kMKrcsgFKyn_NAqL32Q4lQCZIHf28sOdPTDpYeXzV0Dx7ADM6pGM_XhCm5nADtdiVi3FAv9fwCbeGNG_SDJWQmyuDzTS8yx1qkSDMyVBGCMSUp6JNUGkG_rrAEJMfj4y8I_8vCYMzNYO_Jq561l1GHRMQld1-rPOYagip3I6umRzg=w400-h225" >
+        <center><h1>Thank you</h1></center>
+    </div>
+</div>
+    <div class="div3">
+        <center><h1>Important Dates</h1></center>
+
+       
+
+        <p style="margin-top:50px; margin-bottom:7px; border-top: solid 1px black; margin-left: 20px;"><i class="fa-solid fa-calendar-days"></i>14/12/2022</p>
+        <P class="prt2" style="margin-left:20px;">September issue of techDose</P> 
+
+        <p style="margin-top:20px; margin-bottom:7px; border-top: solid 1px black; margin-left: 20px;"><i class="fa-solid fa-calendar-days"></i>13/11/2022</p>
+        <P class="prt2" style="margin-left:20px;">September issue of techDose</P>
+
+        <p style="margin-top:20px; margin-bottom:7px; border-top: solid 1px black; margin-left: 20px;"><i class="fa-solid fa-calendar-days"></i>18/9/2022</p>
+        <P class="prt2" style="margin-left:20px;">September issue of techDose</P> 
+
+        <p style="margin-top:20px; margin-bottom:7px; border-top: solid 1px black; margin-left: 20px;"><i class="fa-solid fa-calendar-days"></i>16/8/2022</p>
+        <P class="prt2" style="margin-left:20px;">September issue of techDose</P> 
+
+        
+    </div>
+</div>
+
+<div class="events">
+      <h1>INTEGRAL EVENTS</h1>
+      <p>Upcoming. Interesting. Engaging.</p>
+      <div class="card1">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEh4lD4yNcEPe77eI-cHDvfbBT3sfNTe_5baWnz4RpQYNg1iModbBYgunnY6NUplogEYC34TSIXWhrouVTw9GW-LJs0jWLbT2YmdR8yPT14HBUa3PZ5mL_cJTFgTdPiGAH_3tgoTITVyR4J4NK_-MFR7-46rmmZRAzzA3acX5Q7oKE6oLT2huVV-le4mbw=s16000" class="events-img">
+        
+        <h2 style="margin-top:5px;">Center For Incubation & Enterpreneurship Development (CIED)
+        <br><span class="date" >01/11/2022 - 01/11/2022</span>
+        <br><button class="event-button1">Learn more</button>
+      </div>
+
+      <div class="card1">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjcVrexZV3UmSxjqTYOyxL8Sof2DcfxhCTF82LxV7r038jYpV8mZ2O_-IShHlhZ3sg12K1Bfz4i3AhmwpXoAmPcsoFmrS7RyWi1TKjTieKsEwE4pDCYnZhaP--9LNjw1HUsQenrFcQe5fivxs_3eSdp0fDtZK36otKrJ4ZM6e6bZkOD4C_F3U7gxP22mg=s16000" class="events-img">
+        
+        <h2 style="margin-top:5px;">INDO-UZBEK MEET & INTERNATIONAL CONFERENCE
+        <br><span class="date" >01/11/2022 - 01/11/2022</span>
+        <br><button class="event-button1">Learn more</button>
+      </div>
+
+      
+</div>
+
+<div class="bottom">
+    <div class="bottom1">
+        <h2>Contact Us</h2> 
+        <p class="para1"><i class="fa-sharp fa-solid fa-phone"></i><a href="tel:0522-2890730,2890812">&nbsp;&nbsp;0522-2890730,2890812</a></p>
+        <p class="para2"><i class="fa-solid fa-envelope m1"></i><a href="mailto:info@iul.ac.in">info@iul.ac.in</a></p>
+    </div>
+
+    <div class="bottom2">
+        <h2>About Us</h2>
+        <p class="para1"><a href="https://iul.ac.in/CA/Overview.aspx">Overview</a></p>
+        <p class="para2"><a href="https://iul.ac.in/CA/about.aspx">Vision & Mission</a></p>
+    </div>
+
+    <div class="bottom3">
+        <h2>Usefull Links</h2>
+        <p class="para1"><a href="#">FAQs</a></p>
+        <p class="para2"><a href="https://iul.ac.in/ITHD/Home.aspx">Help Desk</a></p>
+    </div>
+
+    <div class="bottom4">
+        <h2>Follow Us</h2>
+        <p class="para1">
+            <a href="https://www.facebook.com/integralunilko/"><i class="fa-brands fa-facebook tw"></i></a>
+            <a href="https://plus.google.com/u/0/107179533721549986804"><i class="fa-brands fa-google-plus-g tw"></i></a>
+            <a href="https://twitter.com/IntegralUnilko"><i class="fa-brands fa-twitter tw"></i></a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
